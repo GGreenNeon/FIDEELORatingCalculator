@@ -119,8 +119,7 @@ int main () {
 	if (dR < -400) {
 		dR = -400;
 	}
-	cout << dR << endl;
-	
+	//cout << dR << endl;
 	float Ea;
 	for (i = 1; i < 101; i++) {
 		if (table[i-1][1] >= dR && dR >= table[i][1]) {
