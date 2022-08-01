@@ -79,7 +79,7 @@ float table[51][4] =   {{0,3,0.50,0.50},
 		}
 	}
 	
-	cout << Ea << endl;
+	//cout << Ea << endl;
 	cout << "Rating Change is: ";
     if (w - Ea > 0) {
         cout << "+" << k * (w - Ea);
