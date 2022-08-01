@@ -2,11 +2,6 @@
 #include <cmath>
 using namespace std;
 
-float roundoff (float value, unsigned char prec){
-  float pow_10 = pow (10.0f, (float) prec);
-  return ceilf (value * pow_10) / pow_10;
-}
-
 int main () {
 	float table[101][2] =  {{1.00,800},
 							{0.99,677},
@@ -141,5 +136,7 @@ int main () {
 		Ea = 1 - Ea;
 	}
 	cout << Ea << endl;
-	cout << "Rating Change is: " << k * (w - Ea);	
+	cout << "Rating Change is: " << k * (w - Ea);
+	
+	return 0;
 }
